@@ -1,4 +1,5 @@
 Summary:	getID3() - The PHP media file parser
+Summary(pl):	getID3() - parser plików multimedialnych dla PHP
 Name:		getid3
 Version:	1.7.5
 Release:	0.1
@@ -16,6 +17,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 getID3() is a PHP4 script that extracts useful information from MP3s &
 other multimedia file formats.
+
+%description -l pl
+getID3() to skrypt PHP4 wyci±gaj±cy przydatne informacje z MP3 i
+innych formatów plików multimedialnych.
 
 %prep
 %setup -qc
