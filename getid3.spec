@@ -1,5 +1,5 @@
 Summary:	getID3() - The PHP media file parser
-Summary(pl.UTF-8):   getID3() - parser plików multimedialnych dla PHP
+Summary(pl.UTF-8):	getID3() - parser plików multimedialnych dla PHP
 Name:		getid3
 Version:	1.7.5
 Release:	0.1
