@@ -8,6 +8,7 @@ Group:		Applications
 Source0:	http://dl.sourceforge.net/getid3/%{name}-%{version}.zip
 # Source0-md5:	defd162488ca015c2392e10d9d1fef2a
 URL:		http://getid3.sourceforge.net/
+BuildRequires:	unzip
 Requires:	php-common >= 3:4.1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
